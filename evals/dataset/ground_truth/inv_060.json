@@ -1,0 +1,89 @@
+{
+  "doc_id": "inv_060",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة المنارة للتنظيف",
+    "customer_name": "شركة الساحل للمنسوجات",
+    "customer_address": "41 شارع سموحة، الإسكندرية، مصر",
+    "invoice_number": "2026/79342",
+    "invoice_date": "2025-08-03",
+    "due_date": "2025-09-02",
+    "currency": "EGP",
+    "subtotal": 104324.0,
+    "tax_total": 14605.36,
+    "discount": null,
+    "total_amount": 130819.36,
+    "payment_terms": "الدفع خلال 30 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "خدمة تنظيف المكاتب (شهرياً)",
+        "quantity": 1,
+        "unit_price": 6475.0,
+        "tax_rate": 0.14,
+        "line_total": 6475.0
+      },
+      {
+        "description": "ترمومتر رقمي",
+        "quantity": 2,
+        "unit_price": 208.0,
+        "tax_rate": 0.14,
+        "line_total": 416.0
+      },
+      {
+        "description": "شحن - حاوية 20 قدم",
+        "quantity": 3,
+        "unit_price": 30580.0,
+        "tax_rate": 0.14,
+        "line_total": 91740.0
+      },
+      {
+        "description": "دباسة ثقيلة",
+        "quantity": 7,
+        "unit_price": 243.0,
+        "tax_rate": 0.14,
+        "line_total": 1701.0
+      },
+      {
+        "description": "معجنات مجمدة (صينية)",
+        "quantity": 8,
+        "unit_price": 251.0,
+        "tax_rate": 0.14,
+        "line_total": 2008.0
+      },
+      {
+        "description": "دهان داخلي 18 لتر",
+        "quantity": 2,
+        "unit_price": 815.0,
+        "tax_rate": 0.14,
+        "line_total": 1630.0
+      },
+      {
+        "description": "توصيل محلي (للرحلة)",
+        "quantity": 1,
+        "unit_price": 354.0,
+        "tax_rate": 0.14,
+        "line_total": 354.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_060.png",
+    "format": "png",
+    "language": "ar",
+    "quality": "clean_scan",
+    "layout": "minimal",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": "total_mismatch",
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [
+      "total_mismatch"
+    ],
+    "expected_review": true,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

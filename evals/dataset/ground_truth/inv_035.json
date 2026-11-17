@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_035",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "معهد القمة للتدريب",
+    "customer_name": "شركة مرتفعات الأهرام العقارية",
+    "customer_address": "62 حي اللوتس، القاهرة الجديدة، مصر",
+    "invoice_number": "INV/25/8505",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-12-12",
+    "currency": "AED",
+    "subtotal": 3524.0,
+    "tax_total": 547.6,
+    "discount": null,
+    "total_amount": 4071.6,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "إيجار قاعة اجتماعات (لليوم)",
+        "quantity": 1,
+        "unit_price": 380.0,
+        "tax_rate": 0.2,
+        "line_total": 380.0
+      },
+      {
+        "description": "كرسي مكتب مريح",
+        "quantity": 8,
+        "unit_price": 393.0,
+        "tax_rate": 0.15,
+        "line_total": 3144.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_035.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "modern",
+    "digit_style": "arabic_indic",
+    "currency": "AED",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

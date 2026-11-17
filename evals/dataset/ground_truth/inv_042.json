@@ -1,0 +1,59 @@
+{
+  "doc_id": "inv_042",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مؤسسة الكرنك لنظم الأمن",
+    "customer_name": "مجموعة المرسى للضيافة",
+    "customer_address": "3 شارع بورسعيد، طنطا، مصر",
+    "invoice_number": "INV/25/48149",
+    "invoice_date": "2025-05-01",
+    "due_date": "2025-05-31",
+    "currency": "EGP",
+    "subtotal": 27068.0,
+    "tax_total": 3067.0,
+    "discount": null,
+    "total_amount": 30135.0,
+    "payment_terms": "الدفع خلال 30 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "كابل كهرباء 3×2.5 مم (100 متر)",
+        "quantity": 6,
+        "unit_price": 3030.0,
+        "tax_rate": 0.14,
+        "line_total": 18180.0
+      },
+      {
+        "description": "معقم يدين 500 مل",
+        "quantity": 10,
+        "unit_price": 86.0,
+        "tax_rate": 0.14,
+        "line_total": 860.0
+      },
+      {
+        "description": "طقم لوحة مفاتيح وفأرة لاسلكي",
+        "quantity": 18,
+        "unit_price": 446.0,
+        "tax_rate": 0.05,
+        "line_total": 8028.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_042.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

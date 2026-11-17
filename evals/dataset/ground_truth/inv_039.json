@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_039",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة السلام للصيانة العامة",
+    "customer_name": "المروج الخضراء للزراعة",
+    "customer_address": "62 حي اللوتس، القاهرة الجديدة، مصر",
+    "invoice_number": "INV/25/17281",
+    "invoice_date": "2025-09-09",
+    "due_date": "2025-10-09",
+    "currency": "EGP",
+    "subtotal": 67363.0,
+    "tax_total": 9430.82,
+    "discount": null,
+    "total_amount": 76793.82,
+    "payment_terms": "الدفع خلال 30 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "ورشة تدريبية (لليوم)",
+        "quantity": 4,
+        "unit_price": 6930.0,
+        "tax_rate": 0.14,
+        "line_total": 27720.0
+      },
+      {
+        "description": "طباعة بروشورات (A5، 1000 نسخة)",
+        "quantity": 4,
+        "unit_price": 1815.0,
+        "tax_rate": 0.14,
+        "line_total": 7260.0
+      },
+      {
+        "description": "خدمات ترجمة (للصفحة)",
+        "quantity": 15,
+        "unit_price": 96.0,
+        "tax_rate": 0.14,
+        "line_total": 1440.0
+      },
+      {
+        "description": "لابتوب 15 بوصة",
+        "quantity": 1,
+        "unit_price": 22440.0,
+        "tax_rate": 0.14,
+        "line_total": 22440.0
+      },
+      {
+        "description": "استضافة سحابية - باقة شهرية",
+        "quantity": 1,
+        "unit_price": 3855.0,
+        "tax_rate": 0.14,
+        "line_total": 3855.0
+      },
+      {
+        "description": "بن محمص 1 كجم",
+        "quantity": 12,
+        "unit_price": 344.0,
+        "tax_rate": 0.14,
+        "line_total": 4128.0
+      },
+      {
+        "description": "مياه معبأة (كرتونة 12)",
+        "quantity": 8,
+        "unit_price": 65.0,
+        "tax_rate": 0.14,
+        "line_total": 520.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_039.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "modern",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

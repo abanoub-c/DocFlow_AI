@@ -1,0 +1,78 @@
+{
+  "doc_id": "rcp_002",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "CityCare Pharmacy",
+    "merchant_address": "8 El-Horreya Street, Heliopolis, Cairo, Egypt",
+    "receipt_number": "R-89540",
+    "date": "2026-06-05",
+    "time": "11:00",
+    "payment_method": "mobile_wallet",
+    "currency": "EGP",
+    "subtotal": 918.0,
+    "tax": 128.52,
+    "total": 1046.52,
+    "language": "bilingual",
+    "items": [
+      {
+        "name": "Cotton pads (100)",
+        "quantity": 3,
+        "unit_price": 40.0,
+        "line_total": 120.0
+      },
+      {
+        "name": "فيتامين سي (30 قرص)",
+        "quantity": 1,
+        "unit_price": 97.0,
+        "line_total": 97.0
+      },
+      {
+        "name": "باراسيتامول 500 مجم (20 قرص)",
+        "quantity": 3,
+        "unit_price": 24.0,
+        "line_total": 72.0
+      },
+      {
+        "name": "Sunscreen SPF 50",
+        "quantity": 1,
+        "unit_price": 185.0,
+        "line_total": 185.0
+      },
+      {
+        "name": "Shampoo 400 ml",
+        "quantity": 2,
+        "unit_price": 101.0,
+        "line_total": 202.0
+      },
+      {
+        "name": "Toothpaste",
+        "quantity": 3,
+        "unit_price": 46.0,
+        "line_total": 138.0
+      },
+      {
+        "name": "Hand cream",
+        "quantity": 2,
+        "unit_price": 52.0,
+        "line_total": 104.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_002.jpg",
+    "format": "jpg",
+    "language": "bilingual",
+    "quality": "degraded",
+    "layout": "thermal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

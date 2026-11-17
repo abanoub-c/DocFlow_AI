@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_003",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "Nile Bites Bakery",
+    "merchant_address": "8 El-Horreya Street, Heliopolis, Cairo, Egypt",
+    "receipt_number": "#034020",
+    "date": "2026-03-24",
+    "time": "20:27",
+    "payment_method": "card",
+    "currency": "AED",
+    "subtotal": 29.5,
+    "tax": 1.48,
+    "total": 30.98,
+    "language": "en",
+    "items": [
+      {
+        "name": "Chicken breast 1 kg",
+        "quantity": 2,
+        "unit_price": 11.0,
+        "line_total": 22.0
+      },
+      {
+        "name": "Tomatoes 1 kg",
+        "quantity": 3,
+        "unit_price": 2.3,
+        "line_total": 6.9
+      },
+      {
+        "name": "Mineral water 1.5 L",
+        "quantity": 1,
+        "unit_price": 0.6,
+        "line_total": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_003.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "store",
+    "digit_style": "ascii",
+    "currency": "AED",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

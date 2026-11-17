@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_013",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "صيدلية الصليب الأخضر",
+    "merchant_address": "27 شارع التحرير، الدقي، الجيزة، مصر",
+    "receipt_number": "#086744",
+    "date": "2025-12-19",
+    "time": "17:41",
+    "payment_method": "cash",
+    "currency": "EGP",
+    "subtotal": 428.0,
+    "tax": 59.92,
+    "total": 487.92,
+    "language": "ar",
+    "items": [
+      {
+        "name": "ترمومتر رقمي",
+        "quantity": 1,
+        "unit_price": 154.0,
+        "line_total": 154.0
+      },
+      {
+        "name": "معجون أسنان",
+        "quantity": 3,
+        "unit_price": 61.0,
+        "line_total": 183.0
+      },
+      {
+        "name": "كريم لليدين",
+        "quantity": 2,
+        "unit_price": 45.5,
+        "line_total": 91.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_013.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "store",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

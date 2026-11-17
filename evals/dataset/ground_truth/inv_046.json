@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_046",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "معهد القمة للتدريب",
+    "customer_name": "الصقر لقطع غيار السيارات",
+    "customer_address": "27 شارع التحرير، الدقي، الجيزة، مصر",
+    "invoice_number": "INV-2025-63775",
+    "invoice_date": "2026-05-20",
+    "due_date": "2026-07-04",
+    "currency": "SAR",
+    "subtotal": 1097.0,
+    "tax_total": 164.55,
+    "discount": 109.7,
+    "total_amount": 1151.85,
+    "payment_terms": "الدفع خلال 45 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "كابل كهرباء 3×2.5 مم (100 متر)",
+        "quantity": 4,
+        "unit_price": 248.0,
+        "tax_rate": 0.15,
+        "line_total": 992.0
+      },
+      {
+        "description": "معجنات مجمدة (صينية)",
+        "quantity": 7,
+        "unit_price": 15.0,
+        "tax_rate": 0.15,
+        "line_total": 105.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_046.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "SAR",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_001",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة السلام للصيانة العامة",
+    "customer_name": "شركة الأفق للتطوير",
+    "customer_address": "8 شارع الحرية، مصر الجديدة، القاهرة، مصر",
+    "invoice_number": "INV-2025-43182",
+    "invoice_date": "2025-06-27",
+    "due_date": "2025-08-11",
+    "currency": "EGP",
+    "subtotal": 149647.0,
+    "tax_total": 9564.68,
+    "discount": 14964.7,
+    "total_amount": 144246.98,
+    "payment_terms": "الدفع خلال 45 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "أقلام حبر جاف (علبة 50)",
+        "quantity": 7,
+        "unit_price": 109.0,
+        "tax_rate": 0.14,
+        "line_total": 763.0
+      },
+      {
+        "description": "توصيل محلي (للرحلة)",
+        "quantity": 6,
+        "unit_price": 650.0,
+        "tax_rate": 0.14,
+        "line_total": 3900.0
+      },
+      {
+        "description": "مصباح مكتب LED",
+        "quantity": 17,
+        "unit_price": 311.0,
+        "tax_rate": 0.14,
+        "line_total": 5287.0
+      },
+      {
+        "description": "حديد تسليح 12 مم (للطن)",
+        "quantity": 4,
+        "unit_price": 28815.0,
+        "tax_rate": 0.05,
+        "line_total": 115260.0
+      },
+      {
+        "description": "طقم لوحة مفاتيح وفأرة لاسلكي",
+        "quantity": 25,
+        "unit_price": 450.0,
+        "tax_rate": 0.05,
+        "line_total": 11250.0
+      },
+      {
+        "description": "معجنات مجمدة (صينية)",
+        "quantity": 3,
+        "unit_price": 404.0,
+        "tax_rate": 0.14,
+        "line_total": 1212.0
+      },
+      {
+        "description": "خدمة حراسة أمنية (شهرياً)",
+        "quantity": 1,
+        "unit_price": 11975.0,
+        "tax_rate": 0.14,
+        "line_total": 11975.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_001.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

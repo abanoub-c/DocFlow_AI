@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_008",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "Daily Needs Mini Mart",
+    "merchant_address": "62 Lotus District, New Cairo, Egypt",
+    "receipt_number": "#013738",
+    "date": "2025-06-01",
+    "time": "14:56",
+    "payment_method": "card",
+    "currency": "EGP",
+    "subtotal": 369.0,
+    "tax": 51.66,
+    "total": 420.66,
+    "language": "en",
+    "items": [
+      {
+        "name": "Tomatoes 1 kg",
+        "quantity": 2,
+        "unit_price": 13.5,
+        "line_total": 27.0
+      },
+      {
+        "name": "Chicken breast 1 kg",
+        "quantity": 1,
+        "unit_price": 153.0,
+        "line_total": 153.0
+      },
+      {
+        "name": "Detergent 3 kg",
+        "quantity": 1,
+        "unit_price": 189.0,
+        "line_total": 189.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_008.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "thermal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

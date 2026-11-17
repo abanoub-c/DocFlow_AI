@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_029",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Alexandria Freight Partners",
+    "customer_name": "Evergreen Pharma Distribution",
+    "customer_address": "8 El-Horreya Street, Heliopolis, Cairo, Egypt",
+    "invoice_number": "INV/26/96152",
+    "invoice_date": "2026-07-02",
+    "due_date": "2026-08-16",
+    "currency": "EGP",
+    "subtotal": 91040.0,
+    "tax_total": 12745.6,
+    "discount": null,
+    "total_amount": 103785.6,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 15,
+        "unit_price": 123.0,
+        "tax_rate": 0.14,
+        "line_total": 1845.0
+      },
+      {
+        "description": "Security guard service (monthly)",
+        "quantity": 3,
+        "unit_price": 13935.0,
+        "tax_rate": 0.14,
+        "line_total": 41805.0
+      },
+      {
+        "description": "Interior paint 18 L",
+        "quantity": 6,
+        "unit_price": 1505.0,
+        "tax_rate": 0.14,
+        "line_total": 9030.0
+      },
+      {
+        "description": "Freight - 20 ft container",
+        "quantity": 2,
+        "unit_price": 19180.0,
+        "tax_rate": 0.14,
+        "line_total": 38360.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_029.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

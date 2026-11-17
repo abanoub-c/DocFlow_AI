@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_024",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Silverline Courier Services",
+    "customer_name": "Golden Gate Furniture",
+    "customer_address": "8 El-Horreya Street, Heliopolis, Cairo, Egypt",
+    "invoice_number": "2026/82390",
+    "invoice_date": "2026-04-20",
+    "due_date": "2026-06-19",
+    "currency": "AED",
+    "subtotal": 11904.0,
+    "tax_total": 1190.4,
+    "discount": 595.2,
+    "total_amount": 12499.2,
+    "payment_terms": "Net 60",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Ballpoint pens (box of 50)",
+        "quantity": 27,
+        "unit_price": 11.0,
+        "tax_rate": 0.1,
+        "line_total": 297.0
+      },
+      {
+        "description": "Conference room rental (per day)",
+        "quantity": 1,
+        "unit_price": 294.0,
+        "tax_rate": 0.1,
+        "line_total": 294.0
+      },
+      {
+        "description": "Laptop 15-inch",
+        "quantity": 5,
+        "unit_price": 2250.0,
+        "tax_rate": 0.1,
+        "line_total": 11250.0
+      },
+      {
+        "description": "IT support - hourly",
+        "quantity": 3,
+        "unit_price": 21.0,
+        "tax_rate": 0.1,
+        "line_total": 63.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_024.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "AED",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

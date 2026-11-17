@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_059",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Horizon Cleaning Co.",
+    "customer_name": "Marina Hospitality Group",
+    "customer_address": "18 King Fahd Road, Riyadh, Saudi Arabia",
+    "invoice_number": "A-51323",
+    "invoice_date": "2025-07-15",
+    "due_date": "2025-07-15",
+    "currency": "EGP",
+    "subtotal": 11768.0,
+    "tax_total": 588.4,
+    "discount": null,
+    "total_amount": 12356.4,
+    "payment_terms": "Due on receipt",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Cement, 50 kg bag",
+        "quantity": 9,
+        "unit_price": 102.0,
+        "tax_rate": 0.05,
+        "line_total": 918.0
+      },
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 2,
+        "unit_price": 5425.0,
+        "tax_rate": 0.05,
+        "line_total": 10850.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_059.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

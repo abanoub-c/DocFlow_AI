@@ -1,0 +1,78 @@
+{
+  "doc_id": "rcp_005",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "صيدلية الصليب الأخضر",
+    "merchant_address": "14 طريق الكورنيش، الإسكندرية، مصر",
+    "receipt_number": "0062147",
+    "date": "2026-05-20",
+    "time": "18:56",
+    "payment_method": "cash",
+    "currency": "EGP",
+    "subtotal": 1518.0,
+    "tax": 212.52,
+    "total": 1730.52,
+    "language": "ar",
+    "items": [
+      {
+        "name": "كريم لليدين",
+        "quantity": 2,
+        "unit_price": 61.0,
+        "line_total": 122.0
+      },
+      {
+        "name": "ترمومتر رقمي",
+        "quantity": 1,
+        "unit_price": 163.0,
+        "line_total": 163.0
+      },
+      {
+        "name": "معجون أسنان",
+        "quantity": 2,
+        "unit_price": 52.0,
+        "line_total": 104.0
+      },
+      {
+        "name": "فيتامين سي (30 قرص)",
+        "quantity": 2,
+        "unit_price": 106.0,
+        "line_total": 212.0
+      },
+      {
+        "name": "واقي شمس SPF 50",
+        "quantity": 2,
+        "unit_price": 285.0,
+        "line_total": 570.0
+      },
+      {
+        "name": "شامبو 400 مل",
+        "quantity": 2,
+        "unit_price": 136.0,
+        "line_total": 272.0
+      },
+      {
+        "name": "قطن طبي (100)",
+        "quantity": 2,
+        "unit_price": 37.5,
+        "line_total": 75.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_005.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "store",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

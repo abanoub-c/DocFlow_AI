@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_028",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مطبعة الإسكندرية الحديثة",
+    "customer_name": "مكتب المنارة للمحاماة",
+    "customer_address": "11 شارع فؤاد، الإسكندرية، مصر",
+    "invoice_number": "INV-2026-23580",
+    "invoice_date": "2025-12-15",
+    "due_date": "2025-12-30",
+    "currency": "EGP",
+    "subtotal": 88976.0,
+    "tax_total": 11780.74,
+    "discount": 4448.8,
+    "total_amount": 96307.94,
+    "payment_terms": "الدفع خلال 15 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "سبورة بيضاء 120×90 سم",
+        "quantity": 5,
+        "unit_price": 835.0,
+        "tax_rate": 0.14,
+        "line_total": 4175.0
+      },
+      {
+        "description": "تخزين (للمنصة، شهرياً)",
+        "quantity": 3,
+        "unit_price": 482.0,
+        "tax_rate": 0.14,
+        "line_total": 1446.0
+      },
+      {
+        "description": "ترخيص برنامج (سنوي)",
+        "quantity": 7,
+        "unit_price": 10835.0,
+        "tax_rate": 0.14,
+        "line_total": 75845.0
+      },
+      {
+        "description": "تصميم جرافيك - باقة هوية",
+        "quantity": 1,
+        "unit_price": 7510.0,
+        "tax_rate": 0.05,
+        "line_total": 7510.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_028.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "clean_scan",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

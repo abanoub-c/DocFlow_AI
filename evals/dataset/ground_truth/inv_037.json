@@ -1,0 +1,59 @@
+{
+  "doc_id": "inv_037",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة السلام للصيانة العامة",
+    "customer_name": "شركة أطلس للهواتف المحمولة",
+    "customer_address": "7 المنطقة الصناعية، مدينة العاشر من رمضان، مصر",
+    "invoice_number": "INV/26/89135",
+    "invoice_date": "2026-04-14",
+    "due_date": "2026-06-13",
+    "currency": "EGP",
+    "subtotal": 21301.0,
+    "tax_total": 2982.14,
+    "discount": null,
+    "total_amount": 24283.14,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "خدمة تنظيف المكاتب (شهرياً)",
+        "quantity": 3,
+        "unit_price": 5770.0,
+        "tax_rate": 0.14,
+        "line_total": 17310.0
+      },
+      {
+        "description": "توصيل محلي (للرحلة)",
+        "quantity": 6,
+        "unit_price": 321.0,
+        "tax_rate": 0.14,
+        "line_total": 1926.0
+      },
+      {
+        "description": "حقيبة إسعافات أولية",
+        "quantity": 7,
+        "unit_price": 295.0,
+        "tax_rate": 0.14,
+        "line_total": 2065.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_037.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_045",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Summit Training Institute",
+    "customer_name": "Compass Consulting",
+    "customer_address": "14 Corniche Road, Alexandria, Egypt",
+    "invoice_number": "2025/51766",
+    "invoice_date": "2025-04-21",
+    "due_date": "2025-06-20",
+    "currency": "EGP",
+    "subtotal": 30955.0,
+    "tax_total": 1547.75,
+    "discount": null,
+    "total_amount": 32502.75,
+    "payment_terms": "Net 60",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Surgical masks (box of 50)",
+        "quantity": 20,
+        "unit_price": 84.0,
+        "tax_rate": 0.05,
+        "line_total": 1680.0
+      },
+      {
+        "description": "Software license (annual)",
+        "quantity": 1,
+        "unit_price": 7465.0,
+        "tax_rate": 0.05,
+        "line_total": 7465.0
+      },
+      {
+        "description": "Plumbing repair - labour",
+        "quantity": 5,
+        "unit_price": 535.0,
+        "tax_rate": 0.05,
+        "line_total": 2675.0
+      },
+      {
+        "description": "First aid kit",
+        "quantity": 4,
+        "unit_price": 650.0,
+        "tax_rate": 0.05,
+        "line_total": 2600.0
+      },
+      {
+        "description": "Air conditioner service",
+        "quantity": 10,
+        "unit_price": 770.0,
+        "tax_rate": 0.05,
+        "line_total": 7700.0
+      },
+      {
+        "description": "Cloud hosting - monthly plan",
+        "quantity": 1,
+        "unit_price": 4390.0,
+        "tax_rate": 0.05,
+        "line_total": 4390.0
+      },
+      {
+        "description": "Coffee beans 1 kg",
+        "quantity": 7,
+        "unit_price": 635.0,
+        "tax_rate": 0.05,
+        "line_total": 4445.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_045.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_052",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Tidewater Plumbing Co.",
+    "customer_name": "شركة البوصلة للاستشارات",
+    "customer_address": "7 المنطقة الصناعية، مدينة العاشر من رمضان، مصر",
+    "invoice_number": "INV-2026-32096",
+    "invoice_date": "2026-02-02",
+    "due_date": "2026-03-19",
+    "currency": "EGP",
+    "subtotal": 59243.0,
+    "tax_total": 8294.02,
+    "discount": null,
+    "total_amount": 67537.02,
+    "payment_terms": "Net 45",
+    "language": "bilingual",
+    "line_items": [
+      {
+        "description": "Printer toner cartridge",
+        "quantity": 5,
+        "unit_price": 1465.0,
+        "tax_rate": 0.14,
+        "line_total": 7325.0
+      },
+      {
+        "description": "Customs clearance fee",
+        "quantity": 2,
+        "unit_price": 2385.0,
+        "tax_rate": 0.14,
+        "line_total": 4770.0
+      },
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 19,
+        "unit_price": 167.0,
+        "tax_rate": 0.14,
+        "line_total": 3173.0
+      },
+      {
+        "description": "Cement, 50 kg bag",
+        "quantity": 19,
+        "unit_price": 105.0,
+        "tax_rate": 0.14,
+        "line_total": 1995.0
+      },
+      {
+        "description": "Business lunch catering (per person)",
+        "quantity": 39,
+        "unit_price": 220.0,
+        "tax_rate": 0.14,
+        "line_total": 8580.0
+      },
+      {
+        "description": "24-inch monitor",
+        "quantity": 8,
+        "unit_price": 4175.0,
+        "tax_rate": 0.14,
+        "line_total": 33400.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_052.pdf",
+    "format": "pdf",
+    "language": "bilingual",
+    "quality": "clean_scan",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

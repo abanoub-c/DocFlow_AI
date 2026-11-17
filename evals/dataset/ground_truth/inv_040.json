@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_040",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Alexandria Freight Partners",
+    "customer_name": "شركة الأفق للتطوير",
+    "customer_address": "41 شارع سموحة، الإسكندرية، مصر",
+    "invoice_number": "2026/67532",
+    "invoice_date": "2026-01-06",
+    "due_date": "2026-01-06",
+    "currency": "EGP",
+    "subtotal": 7417.0,
+    "tax_total": 370.85,
+    "discount": 370.85,
+    "total_amount": 7417.0,
+    "payment_terms": "Due on receipt",
+    "language": "bilingual",
+    "line_items": [
+      {
+        "description": "رسوم تخليص جمركي",
+        "quantity": 1,
+        "unit_price": 3250.0,
+        "tax_rate": 0.05,
+        "line_total": 3250.0
+      },
+      {
+        "description": "Hand sanitizer 500 ml",
+        "quantity": 7,
+        "unit_price": 61.0,
+        "tax_rate": 0.05,
+        "line_total": 427.0
+      },
+      {
+        "description": "كابل كهرباء 3×2.5 مم (100 متر)",
+        "quantity": 1,
+        "unit_price": 2690.0,
+        "tax_rate": 0.05,
+        "line_total": 2690.0
+      },
+      {
+        "description": "Whiteboard 120x90 cm",
+        "quantity": 1,
+        "unit_price": 1050.0,
+        "tax_rate": 0.05,
+        "line_total": 1050.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_040.pdf",
+    "format": "pdf",
+    "language": "bilingual",
+    "quality": "digital",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_005",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Papyrus Stationery Ltd.",
+    "customer_name": "Compass Consulting",
+    "customer_address": "7 Industrial Zone, 10th of Ramadan City, Egypt",
+    "invoice_number": "A-65859",
+    "invoice_date": "2026-04-06",
+    "due_date": "2026-05-21",
+    "currency": "EGP",
+    "subtotal": 80125.0,
+    "tax_total": 4006.25,
+    "discount": null,
+    "total_amount": 84131.25,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "24-inch monitor",
+        "quantity": 9,
+        "unit_price": 7155.0,
+        "tax_rate": 0.05,
+        "line_total": 64395.0
+      },
+      {
+        "description": "Website maintenance package",
+        "quantity": 1,
+        "unit_price": 4905.0,
+        "tax_rate": 0.05,
+        "line_total": 4905.0
+      },
+      {
+        "description": "Electrical cable 3x2.5 mm (100 m)",
+        "quantity": 1,
+        "unit_price": 2115.0,
+        "tax_rate": 0.05,
+        "line_total": 2115.0
+      },
+      {
+        "description": "Warehouse storage (per pallet, month)",
+        "quantity": 13,
+        "unit_price": 670.0,
+        "tax_rate": 0.05,
+        "line_total": 8710.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_005.png",
+    "format": "png",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

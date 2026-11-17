@@ -1,0 +1,72 @@
+{
+  "doc_id": "rcp_001",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "CityCare Pharmacy",
+    "merchant_address": "41 Smouha Boulevard, Alexandria, Egypt",
+    "receipt_number": "0092041",
+    "date": "2026-02-18",
+    "time": "20:27",
+    "payment_method": "cash",
+    "currency": "EGP",
+    "subtotal": 747.0,
+    "tax": 104.58,
+    "total": 851.58,
+    "language": "en",
+    "items": [
+      {
+        "name": "Toothpaste",
+        "quantity": 2,
+        "unit_price": 41.0,
+        "line_total": 82.0
+      },
+      {
+        "name": "Hand cream",
+        "quantity": 1,
+        "unit_price": 55.0,
+        "line_total": 55.0
+      },
+      {
+        "name": "Vitamin C (30 tabs)",
+        "quantity": 2,
+        "unit_price": 75.0,
+        "line_total": 150.0
+      },
+      {
+        "name": "Sunscreen SPF 50",
+        "quantity": 1,
+        "unit_price": 306.0,
+        "line_total": 306.0
+      },
+      {
+        "name": "Shampoo 400 ml",
+        "quantity": 1,
+        "unit_price": 133.0,
+        "line_total": 133.0
+      },
+      {
+        "name": "Cotton pads (100)",
+        "quantity": 1,
+        "unit_price": 21.0,
+        "line_total": 21.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_001.png",
+    "format": "png",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "store",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_012",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مطبعة الإسكندرية الحديثة",
+    "customer_name": "فندق إطلالة الميناء",
+    "customer_address": "7 المنطقة الصناعية، مدينة العاشر من رمضان، مصر",
+    "invoice_number": "INV-2025-08231",
+    "invoice_date": "2026-06-11",
+    "due_date": "2026-06-26",
+    "currency": "EGP",
+    "subtotal": 24480.0,
+    "tax_total": 3427.2,
+    "discount": null,
+    "total_amount": 27907.2,
+    "payment_terms": "الدفع خلال 15 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "بن محمص 1 كجم",
+        "quantity": 10,
+        "unit_price": 555.0,
+        "tax_rate": 0.14,
+        "line_total": 5550.0
+      },
+      {
+        "description": "إيجار قاعة اجتماعات (لليوم)",
+        "quantity": 3,
+        "unit_price": 6310.0,
+        "tax_rate": 0.14,
+        "line_total": 18930.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_012.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

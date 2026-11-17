@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_004",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "Page One Bookstore",
+    "merchant_address": "41 Smouha Boulevard, Alexandria, Egypt",
+    "receipt_number": "0087193",
+    "date": "2025-03-24",
+    "time": "11:27",
+    "payment_method": "mobile_wallet",
+    "currency": "EGP",
+    "subtotal": 433.5,
+    "tax": 60.69,
+    "total": 494.19,
+    "language": "bilingual",
+    "items": [
+      {
+        "name": "Desk planner 2026",
+        "quantity": 1,
+        "unit_price": 144.0,
+        "line_total": 144.0
+      },
+      {
+        "name": "Notebook A5",
+        "quantity": 3,
+        "unit_price": 48.5,
+        "line_total": 145.5
+      },
+      {
+        "name": "Pencil case",
+        "quantity": 2,
+        "unit_price": 72.0,
+        "line_total": 144.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_004.pdf",
+    "format": "pdf",
+    "language": "bilingual",
+    "quality": "clean_scan",
+    "layout": "thermal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

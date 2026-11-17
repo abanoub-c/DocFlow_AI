@@ -1,0 +1,59 @@
+{
+  "doc_id": "inv_034",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Nile Delta Office Supplies",
+    "customer_name": "Coastal Textiles Ltd.",
+    "customer_address": "14 Corniche Road, Alexandria, Egypt",
+    "invoice_number": "2026/58826",
+    "invoice_date": "2025-01-13",
+    "due_date": "2025-02-27",
+    "currency": "EGP",
+    "subtotal": 17921.0,
+    "tax_total": 2508.94,
+    "discount": null,
+    "total_amount": 20429.94,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Surgical masks (box of 50)",
+        "quantity": 1,
+        "unit_price": 126.0,
+        "tax_rate": 0.14,
+        "line_total": 126.0
+      },
+      {
+        "description": "Air conditioner service",
+        "quantity": 8,
+        "unit_price": 565.0,
+        "tax_rate": 0.14,
+        "line_total": 4520.0
+      },
+      {
+        "description": "LED floodlight 100 W",
+        "quantity": 15,
+        "unit_price": 885.0,
+        "tax_rate": 0.14,
+        "line_total": 13275.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_034.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "rcp_015",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "محمصة المدينة",
+    "merchant_address": "22 شارع الشيخ زايد، دبي، الإمارات",
+    "receipt_number": "R-80768",
+    "date": "2025-06-25",
+    "time": "12:27",
+    "payment_method": "cash",
+    "currency": "EGP",
+    "subtotal": 866.5,
+    "tax": 121.31,
+    "total": 987.81,
+    "language": "ar",
+    "items": [
+      {
+        "name": "إسبريسو",
+        "quantity": 4,
+        "unit_price": 55.0,
+        "line_total": 220.0
+      },
+      {
+        "name": "آيس لاتيه",
+        "quantity": 3,
+        "unit_price": 73.0,
+        "line_total": 219.0
+      },
+      {
+        "name": "مياه معدنية 0.5 لتر",
+        "quantity": 3,
+        "unit_price": 11.5,
+        "line_total": 34.5
+      },
+      {
+        "name": "عصير برتقال",
+        "quantity": 1,
+        "unit_price": 45.0,
+        "line_total": 45.0
+      },
+      {
+        "name": "ساندوتش كلوب",
+        "quantity": 3,
+        "unit_price": 116.0,
+        "line_total": 348.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_015.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "store",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

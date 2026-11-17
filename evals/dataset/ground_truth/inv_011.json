@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_011",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Sphinx Catering Services",
+    "customer_name": "Bright Future Schools",
+    "customer_address": "62 Lotus District, New Cairo, Egypt",
+    "invoice_number": "INV/25/26930",
+    "invoice_date": "2025-08-13",
+    "due_date": "2025-08-28",
+    "currency": "EGP",
+    "subtotal": 64034.0,
+    "tax_total": 8964.76,
+    "discount": null,
+    "total_amount": 72998.76,
+    "payment_terms": "Net 15",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Cement, 50 kg bag",
+        "quantity": 12,
+        "unit_price": 125.0,
+        "tax_rate": 0.14,
+        "line_total": 1500.0
+      },
+      {
+        "description": "24-inch monitor",
+        "quantity": 7,
+        "unit_price": 5040.0,
+        "tax_rate": 0.14,
+        "line_total": 35280.0
+      },
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 2,
+        "unit_price": 5060.0,
+        "tax_rate": 0.14,
+        "line_total": 10120.0
+      },
+      {
+        "description": "Ballpoint pens (box of 50)",
+        "quantity": 7,
+        "unit_price": 139.0,
+        "tax_rate": 0.14,
+        "line_total": 973.0
+      },
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 9,
+        "unit_price": 129.0,
+        "tax_rate": 0.14,
+        "line_total": 1161.0
+      },
+      {
+        "description": "Printer toner cartridge",
+        "quantity": 10,
+        "unit_price": 1500.0,
+        "tax_rate": 0.14,
+        "line_total": 15000.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_011.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

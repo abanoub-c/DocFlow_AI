@@ -1,0 +1,82 @@
+{
+  "doc_id": "inv_055",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Mediterra Foods Trading",
+    "customer_name": "Bright Future Schools",
+    "customer_address": "18 King Fahd Road, Riyadh, Saudi Arabia",
+    "invoice_number": null,
+    "invoice_date": "2026-01-22",
+    "due_date": "2026-03-08",
+    "currency": "EGP",
+    "subtotal": 58125.0,
+    "tax_total": 2906.25,
+    "discount": null,
+    "total_amount": 61031.25,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Coffee beans 1 kg",
+        "quantity": 14,
+        "unit_price": 595.0,
+        "tax_rate": 0.05,
+        "line_total": 8330.0
+      },
+      {
+        "description": "24-port network switch",
+        "quantity": 4,
+        "unit_price": 4575.0,
+        "tax_rate": 0.05,
+        "line_total": 18300.0
+      },
+      {
+        "description": "Hand sanitizer 500 ml",
+        "quantity": 15,
+        "unit_price": 95.0,
+        "tax_rate": 0.05,
+        "line_total": 1425.0
+      },
+      {
+        "description": "Conference room rental (per day)",
+        "quantity": 2,
+        "unit_price": 3700.0,
+        "tax_rate": 0.05,
+        "line_total": 7400.0
+      },
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 2,
+        "unit_price": 8445.0,
+        "tax_rate": 0.05,
+        "line_total": 16890.0
+      },
+      {
+        "description": "Customs clearance fee",
+        "quantity": 2,
+        "unit_price": 2890.0,
+        "tax_rate": 0.05,
+        "line_total": 5780.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_055.png",
+    "format": "png",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": "missing_invoice_number",
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [
+      "missing_field:invoice_number"
+    ],
+    "expected_review": true,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

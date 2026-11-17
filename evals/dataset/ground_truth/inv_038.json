@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_038",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة الشروق لخدمات الضيافة",
+    "customer_name": "شركة مرتفعات الأهرام العقارية",
+    "customer_address": "90 الطريق الدائري، مدينة نصر، القاهرة، مصر",
+    "invoice_number": "INV-2026-70905",
+    "invoice_date": "2025-12-08",
+    "due_date": "2025-12-08",
+    "currency": "EGP",
+    "subtotal": 106206.0,
+    "tax_total": 5310.3,
+    "discount": null,
+    "total_amount": 111516.3,
+    "payment_terms": "مستحق عند الاستلام",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "لابتوب 15 بوصة",
+        "quantity": 3,
+        "unit_price": 24980.0,
+        "tax_rate": 0.05,
+        "line_total": 74940.0
+      },
+      {
+        "description": "تخزين (للمنصة، شهرياً)",
+        "quantity": 7,
+        "unit_price": 585.0,
+        "tax_rate": 0.05,
+        "line_total": 4095.0
+      },
+      {
+        "description": "تصميم جرافيك - باقة هوية",
+        "quantity": 2,
+        "unit_price": 6840.0,
+        "tax_rate": 0.05,
+        "line_total": 13680.0
+      },
+      {
+        "description": "صيانة سباكة - أجرة عمالة",
+        "quantity": 2,
+        "unit_price": 366.0,
+        "tax_rate": 0.05,
+        "line_total": 732.0
+      },
+      {
+        "description": "حقيبة إسعافات أولية",
+        "quantity": 3,
+        "unit_price": 575.0,
+        "tax_rate": 0.05,
+        "line_total": 1725.0
+      },
+      {
+        "description": "كابل كهرباء 3×2.5 مم (100 متر)",
+        "quantity": 3,
+        "unit_price": 2810.0,
+        "tax_rate": 0.05,
+        "line_total": 8430.0
+      },
+      {
+        "description": "مصباح مكتب LED",
+        "quantity": 6,
+        "unit_price": 434.0,
+        "tax_rate": 0.05,
+        "line_total": 2604.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_038.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "clean_scan",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

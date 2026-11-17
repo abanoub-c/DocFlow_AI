@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_030",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Nile Delta Office Supplies",
+    "customer_name": "شركة الأفق للتطوير",
+    "customer_address": "11 شارع فؤاد، الإسكندرية، مصر",
+    "invoice_number": "A-54757",
+    "invoice_date": "2026-05-13",
+    "due_date": "2026-06-12",
+    "currency": "SAR",
+    "subtotal": 1132.25,
+    "tax_total": 186.65,
+    "discount": null,
+    "total_amount": 1318.9,
+    "payment_terms": "Net 30",
+    "language": "bilingual",
+    "line_items": [
+      {
+        "description": "Air conditioner service",
+        "quantity": 4,
+        "unit_price": 48.5,
+        "tax_rate": 0.1,
+        "line_total": 194.0
+      },
+      {
+        "description": "Heavy-duty stapler",
+        "quantity": 9,
+        "unit_price": 19.0,
+        "tax_rate": 0.15,
+        "line_total": 171.0
+      },
+      {
+        "description": "IT support - hourly",
+        "quantity": 1.5,
+        "unit_price": 39.5,
+        "tax_rate": 0.0,
+        "line_total": 59.25
+      },
+      {
+        "description": "Software license (annual)",
+        "quantity": 3,
+        "unit_price": 236.0,
+        "tax_rate": 0.2,
+        "line_total": 708.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_030.pdf",
+    "format": "pdf",
+    "language": "bilingual",
+    "quality": "digital",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "SAR",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

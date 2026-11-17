@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_012",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "مكتبة الصفحة الأولى",
+    "merchant_address": "11 شارع فؤاد، الإسكندرية، مصر",
+    "receipt_number": "#086773",
+    "date": "2025-01-17",
+    "time": "15:12",
+    "payment_method": "card",
+    "currency": "EGP",
+    "subtotal": 562.0,
+    "tax": 78.68,
+    "total": 640.68,
+    "language": "ar",
+    "items": [
+      {
+        "name": "مفكرة مكتب 2026",
+        "quantity": 2,
+        "unit_price": 169.0,
+        "line_total": 338.0
+      },
+      {
+        "name": "كراس A5",
+        "quantity": 4,
+        "unit_price": 28.0,
+        "line_total": 112.0
+      },
+      {
+        "name": "مقلمة",
+        "quantity": 1,
+        "unit_price": 112.0,
+        "line_total": 112.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_012.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "thermal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

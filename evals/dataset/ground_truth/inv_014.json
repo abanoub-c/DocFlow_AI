@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_014",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مؤسسة الفنار للنقل والشحن",
+    "customer_name": "شركة الساحل للمنسوجات",
+    "customer_address": "62 حي اللوتس، القاهرة الجديدة، مصر",
+    "invoice_number": "INV-2026-92370",
+    "invoice_date": "2025-12-17",
+    "due_date": "2026-02-15",
+    "currency": "EGP",
+    "subtotal": 43280.0,
+    "tax_total": 6059.2,
+    "discount": null,
+    "total_amount": 49339.2,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "خدمة تنظيف المكاتب (شهرياً)",
+        "quantity": 3,
+        "unit_price": 7880.0,
+        "tax_rate": 0.14,
+        "line_total": 23640.0
+      },
+      {
+        "description": "ترخيص برنامج (سنوي)",
+        "quantity": 2,
+        "unit_price": 9820.0,
+        "tax_rate": 0.14,
+        "line_total": 19640.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_014.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

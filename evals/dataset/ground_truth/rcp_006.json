@@ -1,0 +1,78 @@
+{
+  "doc_id": "rcp_006",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "محمصة المدينة",
+    "merchant_address": "62 حي اللوتس، القاهرة الجديدة، مصر",
+    "receipt_number": "R-88825",
+    "date": "2025-03-24",
+    "time": "12:12",
+    "payment_method": "mobile_wallet",
+    "currency": "EGP",
+    "subtotal": 816.0,
+    "tax": 114.24,
+    "total": 930.24,
+    "language": "ar",
+    "items": [
+      {
+        "name": "مياه معدنية 0.5 لتر",
+        "quantity": 2,
+        "unit_price": 15.5,
+        "line_total": 31.0
+      },
+      {
+        "name": "قطعة كيك شوكولاتة",
+        "quantity": 3,
+        "unit_price": 70.0,
+        "line_total": 210.0
+      },
+      {
+        "name": "كابتشينو",
+        "quantity": 1,
+        "unit_price": 73.0,
+        "line_total": 73.0
+      },
+      {
+        "name": "عصير برتقال",
+        "quantity": 1,
+        "unit_price": 63.0,
+        "line_total": 63.0
+      },
+      {
+        "name": "ساندوتش كلوب",
+        "quantity": 2,
+        "unit_price": 121.0,
+        "line_total": 242.0
+      },
+      {
+        "name": "آيس لاتيه",
+        "quantity": 1,
+        "unit_price": 74.0,
+        "line_total": 74.0
+      },
+      {
+        "name": "كرواسون",
+        "quantity": 3,
+        "unit_price": 41.0,
+        "line_total": 123.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_006.png",
+    "format": "png",
+    "language": "ar",
+    "quality": "clean_scan",
+    "layout": "thermal",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_050",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة النيل للمستلزمات المكتبية",
+    "customer_name": "شركة إيفرجرين لتوزيع الأدوية",
+    "customer_address": "18 طريق الملك فهد، الرياض، السعودية",
+    "invoice_number": "INV-2025-28529",
+    "invoice_date": "2026-05-15",
+    "due_date": "2026-07-14",
+    "currency": "EGP",
+    "subtotal": 26342.0,
+    "tax_total": 3687.88,
+    "discount": null,
+    "total_amount": 30029.88,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "كابل كهرباء 3×2.5 مم (100 متر)",
+        "quantity": 7,
+        "unit_price": 3190.0,
+        "tax_rate": 0.14,
+        "line_total": 22330.0
+      },
+      {
+        "description": "دعم فني - بالساعة",
+        "quantity": 2.5,
+        "unit_price": 450.0,
+        "tax_rate": 0.14,
+        "line_total": 1125.0
+      },
+      {
+        "description": "مياه معبأة (كرتونة 12)",
+        "quantity": 13,
+        "unit_price": 109.0,
+        "tax_rate": 0.14,
+        "line_total": 1417.0
+      },
+      {
+        "description": "ورق تصوير A4 (رزمة)",
+        "quantity": 7,
+        "unit_price": 210.0,
+        "tax_rate": 0.14,
+        "line_total": 1470.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_050.png",
+    "format": "png",
+    "language": "ar",
+    "quality": "clean_scan",
+    "layout": "classic",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

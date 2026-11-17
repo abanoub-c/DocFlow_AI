@@ -1,0 +1,54 @@
+{
+  "doc_id": "inv_027",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Papyrus Stationery Ltd.",
+    "customer_name": "Atlas Mobile Retail",
+    "customer_address": "14 Corniche Road, Alexandria, Egypt",
+    "invoice_number": "2025/76952",
+    "invoice_date": "2025-09-28",
+    "due_date": "2025-11-12",
+    "currency": "EGP",
+    "subtotal": 12295.0,
+    "tax_total": 1721.3,
+    "discount": null,
+    "total_amount": 14716.3,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Conference room rental (per day)",
+        "quantity": 1,
+        "unit_price": 4915.0,
+        "tax_rate": 0.14,
+        "line_total": 4915.0
+      },
+      {
+        "description": "Plumbing repair - labour",
+        "quantity": 12,
+        "unit_price": 615.0,
+        "tax_rate": 0.14,
+        "line_total": 7380.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_027.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": "total_mismatch",
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [
+      "total_mismatch"
+    ],
+    "expected_review": true,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

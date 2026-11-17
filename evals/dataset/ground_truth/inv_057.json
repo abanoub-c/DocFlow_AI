@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_057",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة الأفق للأثاث المكتبي",
+    "customer_name": "شركة الشروق للسياحة",
+    "customer_address": "14 طريق الكورنيش، الإسكندرية، مصر",
+    "invoice_number": "2026/30610",
+    "invoice_date": "2026-02-25",
+    "due_date": "2026-04-26",
+    "currency": "EUR",
+    "subtotal": 490.0,
+    "tax_total": 37.8,
+    "discount": null,
+    "total_amount": 527.8,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "سبورة بيضاء 120×90 سم",
+        "quantity": 1,
+        "unit_price": 17.0,
+        "tax_rate": 0.1,
+        "line_total": 17.0
+      },
+      {
+        "description": "استضافة سحابية - باقة شهرية",
+        "quantity": 2,
+        "unit_price": 91.0,
+        "tax_rate": 0.05,
+        "line_total": 182.0
+      },
+      {
+        "description": "طقم لوحة مفاتيح وفأرة لاسلكي",
+        "quantity": 12,
+        "unit_price": 13.0,
+        "tax_rate": 0.0,
+        "line_total": 156.0
+      },
+      {
+        "description": "دهان داخلي 18 لتر",
+        "quantity": 5,
+        "unit_price": 27.0,
+        "tax_rate": 0.2,
+        "line_total": 135.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_057.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EUR",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

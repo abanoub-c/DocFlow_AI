@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_013",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مصنع الصحراء لمواد البناء",
+    "customer_name": "فندق إطلالة الميناء",
+    "customer_address": "3 شارع بورسعيد، طنطا، مصر",
+    "invoice_number": "A-67942",
+    "invoice_date": "2025-09-09",
+    "due_date": "2025-11-08",
+    "currency": "EGP",
+    "subtotal": 227690.0,
+    "tax_total": 31876.6,
+    "discount": 22769.0,
+    "total_amount": 236797.6,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "حديد تسليح 12 مم (للطن)",
+        "quantity": 1,
+        "unit_price": 42140.0,
+        "tax_rate": 0.14,
+        "line_total": 42140.0
+      },
+      {
+        "description": "دعم فني - بالساعة",
+        "quantity": 4,
+        "unit_price": 490.0,
+        "tax_rate": 0.14,
+        "line_total": 1960.0
+      },
+      {
+        "description": "حقيبة إسعافات أولية",
+        "quantity": 6,
+        "unit_price": 525.0,
+        "tax_rate": 0.14,
+        "line_total": 3150.0
+      },
+      {
+        "description": "شحن - حاوية 20 قدم",
+        "quantity": 2,
+        "unit_price": 21525.0,
+        "tax_rate": 0.14,
+        "line_total": 43050.0
+      },
+      {
+        "description": "صيانة تكييف",
+        "quantity": 6,
+        "unit_price": 875.0,
+        "tax_rate": 0.14,
+        "line_total": 5250.0
+      },
+      {
+        "description": "تخزين (للمنصة، شهرياً)",
+        "quantity": 16,
+        "unit_price": 590.0,
+        "tax_rate": 0.14,
+        "line_total": 9440.0
+      },
+      {
+        "description": "لابتوب 15 بوصة",
+        "quantity": 5,
+        "unit_price": 24540.0,
+        "tax_rate": 0.14,
+        "line_total": 122700.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_013.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}
