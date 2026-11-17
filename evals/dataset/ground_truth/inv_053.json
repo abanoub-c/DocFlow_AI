@@ -1,0 +1,59 @@
+{
+  "doc_id": "inv_053",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Alexandria Freight Partners",
+    "customer_name": "Evergreen Pharma Distribution",
+    "customer_address": "14 Corniche Road, Alexandria, Egypt",
+    "invoice_number": "A-80744",
+    "invoice_date": "2025-01-18",
+    "due_date": "2025-02-17",
+    "currency": "EGP",
+    "subtotal": 6971.0,
+    "tax_total": 391.44,
+    "discount": null,
+    "total_amount": 7362.44,
+    "payment_terms": "Net 30",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 14,
+        "unit_price": 154.0,
+        "tax_rate": 0.14,
+        "line_total": 2156.0
+      },
+      {
+        "description": "Air conditioner service",
+        "quantity": 1,
+        "unit_price": 640.0,
+        "tax_rate": 0.14,
+        "line_total": 640.0
+      },
+      {
+        "description": "Local delivery (per trip)",
+        "quantity": 5,
+        "unit_price": 835.0,
+        "tax_rate": 0.0,
+        "line_total": 4175.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_053.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

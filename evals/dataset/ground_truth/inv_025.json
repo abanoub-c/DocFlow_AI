@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_025",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة الشروق لخدمات الضيافة",
+    "customer_name": "مدارس المستقبل المشرق",
+    "customer_address": "62 حي اللوتس، القاهرة الجديدة، مصر",
+    "invoice_number": "ف-2026-69812",
+    "invoice_date": "2026-02-19",
+    "due_date": "2026-03-21",
+    "currency": "AED",
+    "subtotal": 9907.7,
+    "tax_total": 1486.16,
+    "discount": 990.77,
+    "total_amount": 10403.09,
+    "payment_terms": "الدفع خلال 30 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "شاشة 24 بوصة",
+        "quantity": 10,
+        "unit_price": 440.0,
+        "tax_rate": 0.15,
+        "line_total": 4400.0
+      },
+      {
+        "description": "سبورة بيضاء 120×90 سم",
+        "quantity": 3,
+        "unit_price": 76.0,
+        "tax_rate": 0.15,
+        "line_total": 228.0
+      },
+      {
+        "description": "كمامات طبية (علبة 50)",
+        "quantity": 28,
+        "unit_price": 7.65,
+        "tax_rate": 0.15,
+        "line_total": 214.2
+      },
+      {
+        "description": "وجبة غداء عمل (للفرد)",
+        "quantity": 31,
+        "unit_price": 15.5,
+        "tax_rate": 0.15,
+        "line_total": 480.5
+      },
+      {
+        "description": "شحن - حاوية 20 قدم",
+        "quantity": 3,
+        "unit_price": 1125.0,
+        "tax_rate": 0.15,
+        "line_total": 3375.0
+      },
+      {
+        "description": "خدمة حراسة أمنية (شهرياً)",
+        "quantity": 2,
+        "unit_price": 605.0,
+        "tax_rate": 0.15,
+        "line_total": 1210.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_025.png",
+    "format": "png",
+    "language": "ar",
+    "quality": "clean_scan",
+    "layout": "boxed",
+    "digit_style": "arabic_indic",
+    "currency": "AED",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

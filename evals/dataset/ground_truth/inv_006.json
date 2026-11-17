@@ -1,0 +1,59 @@
+{
+  "doc_id": "inv_006",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Lotus Digital Agency",
+    "customer_name": "Bright Future Schools",
+    "customer_address": "3 Port Said Street, Tanta, Egypt",
+    "invoice_number": "A-43408",
+    "invoice_date": "2026-01-28",
+    "due_date": "2026-03-29",
+    "currency": "EGP",
+    "subtotal": 73180.0,
+    "tax_total": 10245.2,
+    "discount": null,
+    "total_amount": 83425.2,
+    "payment_terms": "Net 60",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Warehouse storage (per pallet, month)",
+        "quantity": 9,
+        "unit_price": 640.0,
+        "tax_rate": 0.14,
+        "line_total": 5760.0
+      },
+      {
+        "description": "Laptop 15-inch",
+        "quantity": 2,
+        "unit_price": 28550.0,
+        "tax_rate": 0.14,
+        "line_total": 57100.0
+      },
+      {
+        "description": "Printer toner cartridge",
+        "quantity": 6,
+        "unit_price": 1720.0,
+        "tax_rate": 0.14,
+        "line_total": 10320.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_006.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

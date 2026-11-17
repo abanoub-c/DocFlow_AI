@@ -1,0 +1,73 @@
+{
+  "doc_id": "inv_017",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Evergreen Maintenance Co.",
+    "customer_name": "Atlas Mobile Retail",
+    "customer_address": "8 El-Horreya Street, Heliopolis, Cairo, Egypt",
+    "invoice_number": "INV/26/37292",
+    "invoice_date": "2026-08-04",
+    "due_date": "2026-08-04",
+    "currency": "EGP",
+    "subtotal": 57042.0,
+    "tax_total": 7985.88,
+    "discount": null,
+    "total_amount": 65027.88,
+    "payment_terms": "Due on receipt",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Customs clearance fee",
+        "quantity": 2,
+        "unit_price": 3645.0,
+        "tax_rate": 0.14,
+        "line_total": 7290.0
+      },
+      {
+        "description": "Digital thermometer",
+        "quantity": 4,
+        "unit_price": 91.0,
+        "tax_rate": 0.14,
+        "line_total": 364.0
+      },
+      {
+        "description": "Software license (annual)",
+        "quantity": 6,
+        "unit_price": 7815.0,
+        "tax_rate": 0.14,
+        "line_total": 46890.0
+      },
+      {
+        "description": "Interior paint 18 L",
+        "quantity": 1,
+        "unit_price": 1460.0,
+        "tax_rate": 0.14,
+        "line_total": 1460.0
+      },
+      {
+        "description": "Plumbing repair - labour",
+        "quantity": 3,
+        "unit_price": 346.0,
+        "tax_rate": 0.14,
+        "line_total": 1038.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_017.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

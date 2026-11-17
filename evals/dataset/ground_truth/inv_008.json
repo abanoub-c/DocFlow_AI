@@ -1,0 +1,73 @@
+{
+  "doc_id": "inv_008",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Ironwood Construction Supply",
+    "customer_name": "شركة الأفق للتطوير",
+    "customer_address": "5 شارع جمال عبد الناصر، المنصورة، مصر",
+    "invoice_number": "INV/26/72140",
+    "invoice_date": "2025-11-13",
+    "due_date": "2026-01-12",
+    "currency": "USD",
+    "subtotal": 1499.6,
+    "tax_total": 224.94,
+    "discount": null,
+    "total_amount": 1724.54,
+    "payment_terms": "Net 60",
+    "language": "bilingual",
+    "line_items": [
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 2,
+        "unit_price": 4.1,
+        "tax_rate": 0.15,
+        "line_total": 8.2
+      },
+      {
+        "description": "Interior paint 18 L",
+        "quantity": 10,
+        "unit_price": 24.5,
+        "tax_rate": 0.15,
+        "line_total": 245.0
+      },
+      {
+        "description": "A4 copy paper (ream)",
+        "quantity": 28,
+        "unit_price": 3.3,
+        "tax_rate": 0.15,
+        "line_total": 92.4
+      },
+      {
+        "description": "Ergonomic office chair",
+        "quantity": 10,
+        "unit_price": 107.0,
+        "tax_rate": 0.15,
+        "line_total": 1070.0
+      },
+      {
+        "description": "24-port network switch",
+        "quantity": 1,
+        "unit_price": 84.0,
+        "tax_rate": 0.15,
+        "line_total": 84.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_008.jpg",
+    "format": "jpg",
+    "language": "bilingual",
+    "quality": "degraded",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "USD",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

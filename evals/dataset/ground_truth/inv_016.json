@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_016",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة الدلتا للتغليف",
+    "customer_name": "شركة الأفق للتطوير",
+    "customer_address": "27 شارع التحرير، الدقي، الجيزة، مصر",
+    "invoice_number": "ف-2026-97219",
+    "invoice_date": "2025-12-22",
+    "due_date": "2026-01-21",
+    "currency": "EGP",
+    "subtotal": 106908.0,
+    "tax_total": 14967.12,
+    "discount": 5345.4,
+    "total_amount": 116529.72,
+    "payment_terms": "الدفع خلال 30 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "مصباح مكتب LED",
+        "quantity": 13,
+        "unit_price": 407.0,
+        "tax_rate": 0.14,
+        "line_total": 5291.0
+      },
+      {
+        "description": "توصيل محلي (للرحلة)",
+        "quantity": 12,
+        "unit_price": 890.0,
+        "tax_rate": 0.14,
+        "line_total": 10680.0
+      },
+      {
+        "description": "استضافة سحابية - باقة شهرية",
+        "quantity": 2,
+        "unit_price": 4370.0,
+        "tax_rate": 0.14,
+        "line_total": 8740.0
+      },
+      {
+        "description": "دعم فني - بالساعة",
+        "quantity": 1.5,
+        "unit_price": 368.0,
+        "tax_rate": 0.14,
+        "line_total": 552.0
+      },
+      {
+        "description": "ورشة تدريبية (لليوم)",
+        "quantity": 3,
+        "unit_price": 7185.0,
+        "tax_rate": 0.14,
+        "line_total": 21555.0
+      },
+      {
+        "description": "طباعة بروشورات (A5، 1000 نسخة)",
+        "quantity": 1,
+        "unit_price": 3060.0,
+        "tax_rate": 0.14,
+        "line_total": 3060.0
+      },
+      {
+        "description": "شحن - حاوية 20 قدم",
+        "quantity": 2,
+        "unit_price": 28515.0,
+        "tax_rate": 0.14,
+        "line_total": 57030.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_016.jpg",
+    "format": "jpg",
+    "language": "ar",
+    "quality": "degraded",
+    "layout": "minimal",
+    "digit_style": "arabic_indic",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

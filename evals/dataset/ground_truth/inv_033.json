@@ -1,0 +1,73 @@
+{
+  "doc_id": "inv_033",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة النيل للمستلزمات المكتبية",
+    "customer_name": "شركة أطلس للهواتف المحمولة",
+    "customer_address": "5 شارع جمال عبد الناصر، المنصورة، مصر",
+    "invoice_number": "ف-2026-97202",
+    "invoice_date": "2026-01-03",
+    "due_date": "2026-02-17",
+    "currency": "SAR",
+    "subtotal": 1633.55,
+    "tax_total": 185.41,
+    "discount": 81.68,
+    "total_amount": 1737.28,
+    "payment_terms": "الدفع خلال 45 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "مياه معبأة (كرتونة 12)",
+        "quantity": 27,
+        "unit_price": 5.15,
+        "tax_rate": 0.2,
+        "line_total": 139.05
+      },
+      {
+        "description": "طباعة بروشورات (A5، 1000 نسخة)",
+        "quantity": 4,
+        "unit_price": 233.0,
+        "tax_rate": 0.15,
+        "line_total": 932.0
+      },
+      {
+        "description": "ترمومتر رقمي",
+        "quantity": 11,
+        "unit_price": 14.5,
+        "tax_rate": 0.0,
+        "line_total": 159.5
+      },
+      {
+        "description": "دعم فني - بالساعة",
+        "quantity": 6,
+        "unit_price": 37.5,
+        "tax_rate": 0.0,
+        "line_total": 225.0
+      },
+      {
+        "description": "بن محمص 1 كجم",
+        "quantity": 4,
+        "unit_price": 44.5,
+        "tax_rate": 0.1,
+        "line_total": 178.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_033.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "arabic_indic",
+    "currency": "SAR",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

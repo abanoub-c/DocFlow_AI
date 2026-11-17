@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_036",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Anchor Marine Services",
+    "customer_name": "Coastal Textiles Ltd.",
+    "customer_address": "90 Ring Road, Nasr City, Cairo, Egypt",
+    "invoice_number": "A-67023",
+    "invoice_date": "2026-05-25",
+    "due_date": "2026-05-25",
+    "currency": "EGP",
+    "subtotal": 229911.0,
+    "tax_total": 32187.54,
+    "discount": null,
+    "total_amount": 262098.54,
+    "payment_terms": "Due on receipt",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "A4 copy paper (ream)",
+        "quantity": 7,
+        "unit_price": 214.0,
+        "tax_rate": 0.14,
+        "line_total": 1498.0
+      },
+      {
+        "description": "LED floodlight 100 W",
+        "quantity": 20,
+        "unit_price": 361.0,
+        "tax_rate": 0.14,
+        "line_total": 7220.0
+      },
+      {
+        "description": "Whiteboard 120x90 cm",
+        "quantity": 4,
+        "unit_price": 1695.0,
+        "tax_rate": 0.14,
+        "line_total": 6780.0
+      },
+      {
+        "description": "Wireless keyboard and mouse set",
+        "quantity": 5,
+        "unit_price": 393.0,
+        "tax_rate": 0.14,
+        "line_total": 1965.0
+      },
+      {
+        "description": "Ballpoint pens (box of 50)",
+        "quantity": 27,
+        "unit_price": 104.0,
+        "tax_rate": 0.14,
+        "line_total": 2808.0
+      },
+      {
+        "description": "Laptop 15-inch",
+        "quantity": 6,
+        "unit_price": 34940.0,
+        "tax_rate": 0.14,
+        "line_total": 209640.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_036.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "inv_002",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Sunbeam Print & Design",
+    "customer_name": "Evergreen Pharma Distribution",
+    "customer_address": "14 Corniche Road, Alexandria, Egypt",
+    "invoice_number": "A-59231",
+    "invoice_date": "2025-05-20",
+    "due_date": "2025-07-19",
+    "currency": "EGP",
+    "subtotal": 60880.0,
+    "tax_total": 3044.0,
+    "discount": null,
+    "total_amount": 63924.0,
+    "payment_terms": "Net 60",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "LED floodlight 100 W",
+        "quantity": 1,
+        "unit_price": 660.0,
+        "tax_rate": 0.05,
+        "line_total": 660.0
+      },
+      {
+        "description": "Air conditioner service",
+        "quantity": 2,
+        "unit_price": 1180.0,
+        "tax_rate": 0.05,
+        "line_total": 2360.0
+      },
+      {
+        "description": "Software license (annual)",
+        "quantity": 8,
+        "unit_price": 6575.0,
+        "tax_rate": 0.05,
+        "line_total": 57860.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_002.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": "line_total_mismatch",
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [
+      "line_total_mismatch"
+    ],
+    "expected_review": true,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

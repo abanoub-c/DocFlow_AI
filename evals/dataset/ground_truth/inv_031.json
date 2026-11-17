@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_031",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "BlueWave IT Solutions",
+    "customer_name": "Marina Hospitality Group",
+    "customer_address": "18 King Fahd Road, Riyadh, Saudi Arabia",
+    "invoice_number": "INV/26/26151",
+    "invoice_date": "2026-09-07",
+    "due_date": "2026-11-06",
+    "currency": "EGP",
+    "subtotal": 82995.0,
+    "tax_total": 11619.3,
+    "discount": null,
+    "total_amount": 94614.3,
+    "payment_terms": "Net 60",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Freight - 20 ft container",
+        "quantity": 3,
+        "unit_price": 26495.0,
+        "tax_rate": 0.14,
+        "line_total": 79485.0
+      },
+      {
+        "description": "Heavy-duty stapler",
+        "quantity": 9,
+        "unit_price": 153.0,
+        "tax_rate": 0.14,
+        "line_total": 1377.0
+      },
+      {
+        "description": "First aid kit",
+        "quantity": 1,
+        "unit_price": 505.0,
+        "tax_rate": 0.14,
+        "line_total": 505.0
+      },
+      {
+        "description": "Plumbing repair - labour",
+        "quantity": 4,
+        "unit_price": 407.0,
+        "tax_rate": 0.14,
+        "line_total": 1628.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_031.png",
+    "format": "png",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

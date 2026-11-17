@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_044",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Brightline Telecom Services",
+    "customer_name": "Atlas Mobile Retail",
+    "customer_address": "62 Lotus District, New Cairo, Egypt",
+    "invoice_number": "A-09460",
+    "invoice_date": "2026-03-21",
+    "due_date": "2026-05-05",
+    "currency": "EGP",
+    "subtotal": 9630.0,
+    "tax_total": 1348.2,
+    "discount": null,
+    "total_amount": 10978.2,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 1,
+        "unit_price": 6150.0,
+        "tax_rate": 0.14,
+        "line_total": 6150.0
+      },
+      {
+        "description": "First aid kit",
+        "quantity": 6,
+        "unit_price": 580.0,
+        "tax_rate": 0.14,
+        "line_total": 3480.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_044.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

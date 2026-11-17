@@ -1,0 +1,73 @@
+{
+  "doc_id": "inv_018",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Zenith Packaging Industries",
+    "customer_name": "Falcon Auto Parts",
+    "customer_address": "3 Port Said Street, Tanta, Egypt",
+    "invoice_number": "INV-2026-53981",
+    "invoice_date": "2026-03-02",
+    "due_date": "2026-04-16",
+    "currency": "EGP",
+    "subtotal": 125199.0,
+    "tax_total": 6259.95,
+    "discount": 6259.95,
+    "total_amount": 125199.0,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Freight - 20 ft container",
+        "quantity": 1,
+        "unit_price": 21310.0,
+        "tax_rate": 0.05,
+        "line_total": 21310.0
+      },
+      {
+        "description": "Hand sanitizer 500 ml",
+        "quantity": 3,
+        "unit_price": 65.0,
+        "tax_rate": 0.05,
+        "line_total": 195.0
+      },
+      {
+        "description": "Heavy-duty stapler",
+        "quantity": 2,
+        "unit_price": 148.0,
+        "tax_rate": 0.05,
+        "line_total": 296.0
+      },
+      {
+        "description": "IT support - hourly",
+        "quantity": 6,
+        "unit_price": 348.0,
+        "tax_rate": 0.05,
+        "line_total": 2088.0
+      },
+      {
+        "description": "Steel rebar 12 mm (per ton)",
+        "quantity": 3,
+        "unit_price": 33770.0,
+        "tax_rate": 0.05,
+        "line_total": 101310.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_018.png",
+    "format": "png",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

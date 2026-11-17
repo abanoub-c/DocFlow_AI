@@ -1,0 +1,59 @@
+{
+  "doc_id": "inv_054",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Meridian Office Furniture",
+    "customer_name": "Bright Future Schools",
+    "customer_address": "7 Industrial Zone, 10th of Ramadan City, Egypt",
+    "invoice_number": "INV-2026-51685",
+    "invoice_date": "2026-10-24",
+    "due_date": "2026-11-08",
+    "currency": "EGP",
+    "subtotal": 72010.0,
+    "tax_total": 10081.4,
+    "discount": 3600.5,
+    "total_amount": 78490.9,
+    "payment_terms": "Net 15",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 22,
+        "unit_price": 185.0,
+        "tax_rate": 0.14,
+        "line_total": 4070.0
+      },
+      {
+        "description": "Security guard service (monthly)",
+        "quantity": 2,
+        "unit_price": 11120.0,
+        "tax_rate": 0.14,
+        "line_total": 22240.0
+      },
+      {
+        "description": "Software license (annual)",
+        "quantity": 5,
+        "unit_price": 9140.0,
+        "tax_rate": 0.14,
+        "line_total": 45700.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_054.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

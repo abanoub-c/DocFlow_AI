@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_049",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Silverline Courier Services",
+    "customer_name": "شركة مرتفعات الأهرام العقارية",
+    "customer_address": "11 شارع فؤاد، الإسكندرية، مصر",
+    "invoice_number": "A-75039",
+    "invoice_date": "2026-05-28",
+    "due_date": "2026-07-27",
+    "currency": "EGP",
+    "subtotal": 47879.0,
+    "tax_total": 5849.05,
+    "discount": 4787.9,
+    "total_amount": 48940.15,
+    "payment_terms": "Net 60",
+    "language": "bilingual",
+    "line_items": [
+      {
+        "description": "Electrical cable 3x2.5 mm (100 m)",
+        "quantity": 2,
+        "unit_price": 2790.0,
+        "tax_rate": 0.14,
+        "line_total": 5580.0
+      },
+      {
+        "description": "Disposable gloves (box of 100)",
+        "quantity": 6,
+        "unit_price": 183.0,
+        "tax_rate": 0.05,
+        "line_total": 1098.0
+      },
+      {
+        "description": "سويتش شبكة 24 منفذ",
+        "quantity": 4,
+        "unit_price": 4250.0,
+        "tax_rate": 0.14,
+        "line_total": 17000.0
+      },
+      {
+        "description": "وجبة غداء عمل (للفرد)",
+        "quantity": 39,
+        "unit_price": 154.0,
+        "tax_rate": 0.05,
+        "line_total": 6006.0
+      },
+      {
+        "description": "كشاف LED 100 واط",
+        "quantity": 3,
+        "unit_price": 795.0,
+        "tax_rate": 0.05,
+        "line_total": 2385.0
+      },
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 2,
+        "unit_price": 7905.0,
+        "tax_rate": 0.14,
+        "line_total": 15810.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_049.pdf",
+    "format": "pdf",
+    "language": "bilingual",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

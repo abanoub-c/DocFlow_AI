@@ -1,0 +1,75 @@
+{
+  "doc_id": "inv_015",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "شركة لوتس للدعاية والإعلان",
+    "customer_name": "الصقر لقطع غيار السيارات",
+    "customer_address": "41 شارع سموحة، الإسكندرية، مصر",
+    "invoice_number": "INV-2025-20631",
+    "invoice_date": "2025-08-16",
+    "due_date": null,
+    "currency": "EGP",
+    "subtotal": 40230.0,
+    "tax_total": 5632.2,
+    "discount": 4023.0,
+    "total_amount": 41839.2,
+    "payment_terms": "مستحق عند الاستلام",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "بن محمص 1 كجم",
+        "quantity": 14,
+        "unit_price": 535.0,
+        "tax_rate": 0.14,
+        "line_total": 7490.0
+      },
+      {
+        "description": "طباعة بروشورات (A5، 1000 نسخة)",
+        "quantity": 4,
+        "unit_price": 4280.0,
+        "tax_rate": 0.14,
+        "line_total": 17120.0
+      },
+      {
+        "description": "كشاف LED 100 واط",
+        "quantity": 14,
+        "unit_price": 810.0,
+        "tax_rate": 0.14,
+        "line_total": 11340.0
+      },
+      {
+        "description": "قفازات طبية (علبة 100)",
+        "quantity": 4,
+        "unit_price": 250.0,
+        "tax_rate": 0.14,
+        "line_total": 1000.0
+      },
+      {
+        "description": "خرطوشة حبر طابعة",
+        "quantity": 2,
+        "unit_price": 1640.0,
+        "tax_rate": 0.14,
+        "line_total": 3280.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_015.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": "missing_due_date",
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [
+      "missing_field:due_date"
+    ],
+    "expected_review": true,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

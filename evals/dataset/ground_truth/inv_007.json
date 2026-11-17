@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_007",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Palm Grove Facility Management",
+    "customer_name": "شركة الأفق للتطوير",
+    "customer_address": "14 طريق الكورنيش، الإسكندرية، مصر",
+    "invoice_number": "INV-2026-30128",
+    "invoice_date": "2026-03-02",
+    "due_date": "2026-05-01",
+    "currency": "USD",
+    "subtotal": 445.1,
+    "tax_total": 66.77,
+    "discount": 22.26,
+    "total_amount": 489.61,
+    "payment_terms": "Net 60",
+    "language": "bilingual",
+    "line_items": [
+      {
+        "description": "ترمومتر رقمي",
+        "quantity": 6,
+        "unit_price": 2.15,
+        "tax_rate": 0.15,
+        "line_total": 12.9
+      },
+      {
+        "description": "A4 copy paper (ream)",
+        "quantity": 2,
+        "unit_price": 3.5,
+        "tax_rate": 0.15,
+        "line_total": 7.0
+      },
+      {
+        "description": "LED desk lamp",
+        "quantity": 11,
+        "unit_price": 6.4,
+        "tax_rate": 0.15,
+        "line_total": 70.4
+      },
+      {
+        "description": "Hand sanitizer 500 ml",
+        "quantity": 24,
+        "unit_price": 1.2,
+        "tax_rate": 0.15,
+        "line_total": 28.8
+      },
+      {
+        "description": "صيانة تكييف",
+        "quantity": 1,
+        "unit_price": 11.0,
+        "tax_rate": 0.15,
+        "line_total": 11.0
+      },
+      {
+        "description": "Printer toner cartridge",
+        "quantity": 7,
+        "unit_price": 45.0,
+        "tax_rate": 0.15,
+        "line_total": 315.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_007.png",
+    "format": "png",
+    "language": "bilingual",
+    "quality": "clean_scan",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "USD",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

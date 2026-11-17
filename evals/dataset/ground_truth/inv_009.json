@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_009",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مصنع الصحراء لمواد البناء",
+    "customer_name": "الصقر لقطع غيار السيارات",
+    "customer_address": "11 شارع فؤاد، الإسكندرية، مصر",
+    "invoice_number": "A-10305",
+    "invoice_date": "2025-12-08",
+    "due_date": "2025-12-08",
+    "currency": "EGP",
+    "subtotal": 12537.0,
+    "tax_total": 0.0,
+    "discount": 1253.7,
+    "total_amount": 11283.3,
+    "payment_terms": "مستحق عند الاستلام",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "ترمومتر رقمي",
+        "quantity": 19,
+        "unit_price": 113.0,
+        "tax_rate": 0.0,
+        "line_total": 2147.0
+      },
+      {
+        "description": "أسمنت 50 كجم (شيكارة)",
+        "quantity": 12,
+        "unit_price": 114.0,
+        "tax_rate": 0.0,
+        "line_total": 1368.0
+      },
+      {
+        "description": "كشاف LED 100 واط",
+        "quantity": 14,
+        "unit_price": 515.0,
+        "tax_rate": 0.0,
+        "line_total": 7210.0
+      },
+      {
+        "description": "دعم فني - بالساعة",
+        "quantity": 6,
+        "unit_price": 302.0,
+        "tax_rate": 0.0,
+        "line_total": 1812.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_009.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "boxed",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

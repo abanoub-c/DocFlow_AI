@@ -1,0 +1,73 @@
+{
+  "doc_id": "inv_022",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Sunbeam Print & Design",
+    "customer_name": "Harbor View Hotel",
+    "customer_address": "62 Lotus District, New Cairo, Egypt",
+    "invoice_number": "A-10603",
+    "invoice_date": "2025-06-27",
+    "due_date": "2025-08-26",
+    "currency": "EGP",
+    "subtotal": 55618.0,
+    "tax_total": 7786.52,
+    "discount": null,
+    "total_amount": 63404.52,
+    "payment_terms": "Net 60",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Ergonomic office chair",
+        "quantity": 4,
+        "unit_price": 5505.0,
+        "tax_rate": 0.14,
+        "line_total": 22020.0
+      },
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 1,
+        "unit_price": 8525.0,
+        "tax_rate": 0.14,
+        "line_total": 8525.0
+      },
+      {
+        "description": "Digital thermometer",
+        "quantity": 1,
+        "unit_price": 168.0,
+        "tax_rate": 0.14,
+        "line_total": 168.0
+      },
+      {
+        "description": "Whiteboard 120x90 cm",
+        "quantity": 6,
+        "unit_price": 1240.0,
+        "tax_rate": 0.14,
+        "line_total": 7440.0
+      },
+      {
+        "description": "Printer toner cartridge",
+        "quantity": 7,
+        "unit_price": 2495.0,
+        "tax_rate": 0.14,
+        "line_total": 17465.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_022.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

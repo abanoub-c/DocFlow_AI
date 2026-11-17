@@ -1,0 +1,73 @@
+{
+  "doc_id": "inv_058",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Zenith Packaging Industries",
+    "customer_name": "Evergreen Pharma Distribution",
+    "customer_address": "3 Port Said Street, Tanta, Egypt",
+    "invoice_number": "A-47921",
+    "invoice_date": "2026-07-13",
+    "due_date": "2026-07-28",
+    "currency": "EGP",
+    "subtotal": 55728.0,
+    "tax_total": 7801.92,
+    "discount": null,
+    "total_amount": 63529.92,
+    "payment_terms": "Net 15",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Business lunch catering (per person)",
+        "quantity": 37,
+        "unit_price": 129.0,
+        "tax_rate": 0.14,
+        "line_total": 4773.0
+      },
+      {
+        "description": "Steel rebar 12 mm (per ton)",
+        "quantity": 1,
+        "unit_price": 34785.0,
+        "tax_rate": 0.14,
+        "line_total": 34785.0
+      },
+      {
+        "description": "Office cleaning service (monthly)",
+        "quantity": 2,
+        "unit_price": 3505.0,
+        "tax_rate": 0.14,
+        "line_total": 7010.0
+      },
+      {
+        "description": "Air conditioner service",
+        "quantity": 8,
+        "unit_price": 610.0,
+        "tax_rate": 0.14,
+        "line_total": 4880.0
+      },
+      {
+        "description": "Customs clearance fee",
+        "quantity": 2,
+        "unit_price": 2140.0,
+        "tax_rate": 0.14,
+        "line_total": 4280.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_058.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": "duplicate_original",
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

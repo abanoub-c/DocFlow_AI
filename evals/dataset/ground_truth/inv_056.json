@@ -1,0 +1,66 @@
+{
+  "doc_id": "inv_056",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Alexandria Freight Partners",
+    "customer_name": "Metro Clinic Network",
+    "customer_address": "7 Industrial Zone, 10th of Ramadan City, Egypt",
+    "invoice_number": "INV-2025-54243",
+    "invoice_date": "2025-04-19",
+    "due_date": "2025-04-19",
+    "currency": "EGP",
+    "subtotal": 50384.0,
+    "tax_total": 7053.76,
+    "discount": 5038.4,
+    "total_amount": 52399.36,
+    "payment_terms": "Due on receipt",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "4-drawer filing cabinet",
+        "quantity": 3,
+        "unit_price": 7335.0,
+        "tax_rate": 0.14,
+        "line_total": 22005.0
+      },
+      {
+        "description": "Ergonomic office chair",
+        "quantity": 5,
+        "unit_price": 3060.0,
+        "tax_rate": 0.14,
+        "line_total": 15300.0
+      },
+      {
+        "description": "24-port network switch",
+        "quantity": 2,
+        "unit_price": 5940.0,
+        "tax_rate": 0.14,
+        "line_total": 11880.0
+      },
+      {
+        "description": "Digital thermometer",
+        "quantity": 11,
+        "unit_price": 109.0,
+        "tax_rate": 0.14,
+        "line_total": 1199.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_056.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

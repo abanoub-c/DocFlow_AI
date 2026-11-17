@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_048",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "مكتب فاروس للاستشارات الهندسية",
+    "customer_name": "معرض البوابة الذهبية للأثاث",
+    "customer_address": "62 حي اللوتس، القاهرة الجديدة، مصر",
+    "invoice_number": "ف-2026-72116",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-12-30",
+    "currency": "AED",
+    "subtotal": 2701.5,
+    "tax_total": 516.1,
+    "discount": 270.15,
+    "total_amount": 2947.45,
+    "payment_terms": "الدفع خلال 60 يوماً",
+    "language": "ar",
+    "line_items": [
+      {
+        "description": "استضافة سحابية - باقة شهرية",
+        "quantity": 2,
+        "unit_price": 422.0,
+        "tax_rate": 0.2,
+        "line_total": 844.0
+      },
+      {
+        "description": "صيانة تكييف",
+        "quantity": 1,
+        "unit_price": 77.0,
+        "tax_rate": 0.2,
+        "line_total": 77.0
+      },
+      {
+        "description": "وجبة غداء عمل (للفرد)",
+        "quantity": 31,
+        "unit_price": 16.0,
+        "tax_rate": 0.2,
+        "line_total": 496.0
+      },
+      {
+        "description": "ترخيص برنامج (سنوي)",
+        "quantity": 2,
+        "unit_price": 575.0,
+        "tax_rate": 0.2,
+        "line_total": 1150.0
+      },
+      {
+        "description": "ترمومتر رقمي",
+        "quantity": 2,
+        "unit_price": 6.75,
+        "tax_rate": 0.2,
+        "line_total": 13.5
+      },
+      {
+        "description": "أقلام حبر جاف (علبة 50)",
+        "quantity": 11,
+        "unit_price": 11.0,
+        "tax_rate": 0.0,
+        "line_total": 121.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_048.pdf",
+    "format": "pdf",
+    "language": "ar",
+    "quality": "digital",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "AED",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "rcp_010",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "Urban Roast Coffee",
+    "merchant_address": "8 El-Horreya Street, Heliopolis, Cairo, Egypt",
+    "receipt_number": "R-50907",
+    "date": "2025-04-25",
+    "time": "11:12",
+    "payment_method": "mobile_wallet",
+    "currency": "EGP",
+    "subtotal": 678.0,
+    "tax": 94.92,
+    "total": 772.92,
+    "language": "en",
+    "items": [
+      {
+        "name": "Iced latte",
+        "quantity": 3,
+        "unit_price": 86.0,
+        "line_total": 258.0
+      },
+      {
+        "name": "Chocolate cake slice",
+        "quantity": 2,
+        "unit_price": 75.0,
+        "line_total": 150.0
+      },
+      {
+        "name": "Club sandwich",
+        "quantity": 1,
+        "unit_price": 108.0,
+        "line_total": 108.0
+      },
+      {
+        "name": "Croissant",
+        "quantity": 3,
+        "unit_price": 37.0,
+        "line_total": 111.0
+      },
+      {
+        "name": "Mineral water 0.5 L",
+        "quantity": 3,
+        "unit_price": 17.0,
+        "line_total": 51.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_010.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "thermal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

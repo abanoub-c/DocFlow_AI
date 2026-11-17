@@ -1,0 +1,87 @@
+{
+  "doc_id": "inv_010",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Zenith Packaging Industries",
+    "customer_name": "Pyramid Heights Real Estate",
+    "customer_address": "62 Lotus District, New Cairo, Egypt",
+    "invoice_number": "A-73720",
+    "invoice_date": "2026-04-29",
+    "due_date": "2026-05-29",
+    "currency": "EGP",
+    "subtotal": 81649.0,
+    "tax_total": 11430.86,
+    "discount": null,
+    "total_amount": 93079.86,
+    "payment_terms": "Net 30",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "IT support - hourly",
+        "quantity": 1,
+        "unit_price": 540.0,
+        "tax_rate": 0.14,
+        "line_total": 540.0
+      },
+      {
+        "description": "LED floodlight 100 W",
+        "quantity": 18,
+        "unit_price": 630.0,
+        "tax_rate": 0.14,
+        "line_total": 11340.0
+      },
+      {
+        "description": "Graphic design - branding package",
+        "quantity": 1,
+        "unit_price": 3765.0,
+        "tax_rate": 0.14,
+        "line_total": 3765.0
+      },
+      {
+        "description": "Cement, 50 kg bag",
+        "quantity": 8,
+        "unit_price": 115.0,
+        "tax_rate": 0.14,
+        "line_total": 920.0
+      },
+      {
+        "description": "Security guard service (monthly)",
+        "quantity": 3,
+        "unit_price": 8590.0,
+        "tax_rate": 0.14,
+        "line_total": 25770.0
+      },
+      {
+        "description": "Software license (annual)",
+        "quantity": 8,
+        "unit_price": 4875.0,
+        "tax_rate": 0.14,
+        "line_total": 39000.0
+      },
+      {
+        "description": "LED desk lamp",
+        "quantity": 1,
+        "unit_price": 314.0,
+        "tax_rate": 0.14,
+        "line_total": 314.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_010.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "classic",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

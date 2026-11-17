@@ -1,0 +1,52 @@
+{
+  "doc_id": "inv_004",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Delta Print House",
+    "customer_name": "Harbor View Hotel",
+    "customer_address": "18 King Fahd Road, Riyadh, Saudi Arabia",
+    "invoice_number": "INV-2026-71888",
+    "invoice_date": "2026-07-07",
+    "due_date": "2026-07-22",
+    "currency": "EUR",
+    "subtotal": 134.2,
+    "tax_total": 6.71,
+    "discount": 13.42,
+    "total_amount": 127.49,
+    "payment_terms": "Net 15",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Surgical masks (box of 50)",
+        "quantity": 6,
+        "unit_price": 1.7,
+        "tax_rate": 0.05,
+        "line_total": 10.2
+      },
+      {
+        "description": "Brochure printing (A5, 1000 copies)",
+        "quantity": 2,
+        "unit_price": 62.0,
+        "tax_rate": 0.05,
+        "line_total": 124.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_004.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "minimal",
+    "digit_style": "ascii",
+    "currency": "EUR",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

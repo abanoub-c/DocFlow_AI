@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_011",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "Nile Bites Bakery",
+    "merchant_address": "41 Smouha Boulevard, Alexandria, Egypt",
+    "receipt_number": "#071560",
+    "date": "2025-09-03",
+    "time": "22:05",
+    "payment_method": "card",
+    "currency": "EGP",
+    "subtotal": 253.5,
+    "tax": 35.49,
+    "total": 288.99,
+    "language": "en",
+    "items": [
+      {
+        "name": "Cooking oil 1 L",
+        "quantity": 2,
+        "unit_price": 82.0,
+        "line_total": 164.0
+      },
+      {
+        "name": "Brown bread",
+        "quantity": 3,
+        "unit_price": 18.5,
+        "line_total": 55.5
+      },
+      {
+        "name": "Tomatoes 1 kg",
+        "quantity": 1,
+        "unit_price": 34.0,
+        "line_total": 34.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_011.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "clean_scan",
+    "layout": "store",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "doc_id": "rcp_014",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "Corner Cup Cafe",
+    "merchant_address": "18 King Fahd Road, Riyadh, Saudi Arabia",
+    "receipt_number": "R-27420",
+    "date": "2025-12-13",
+    "time": "11:00",
+    "payment_method": "cash",
+    "currency": "EGP",
+    "subtotal": 611.0,
+    "tax": 85.54,
+    "total": 696.54,
+    "language": "en",
+    "items": [
+      {
+        "name": "Croissant",
+        "quantity": 4,
+        "unit_price": 55.0,
+        "line_total": 220.0
+      },
+      {
+        "name": "Iced latte",
+        "quantity": 3,
+        "unit_price": 75.0,
+        "line_total": 225.0
+      },
+      {
+        "name": "Cappuccino",
+        "quantity": 2,
+        "unit_price": 83.0,
+        "line_total": 166.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_014.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "thermal",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

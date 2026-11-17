@@ -1,0 +1,80 @@
+{
+  "doc_id": "inv_047",
+  "doc_type": "invoice",
+  "schema_version": "invoice_v1",
+  "fields": {
+    "vendor_name": "Sunbeam Print & Design",
+    "customer_name": "Lighthouse Law Office",
+    "customer_address": "14 Corniche Road, Alexandria, Egypt",
+    "invoice_number": "2025/37170",
+    "invoice_date": "2026-02-04",
+    "due_date": "2026-03-21",
+    "currency": "EGP",
+    "subtotal": 50381.0,
+    "tax_total": 7053.34,
+    "discount": null,
+    "total_amount": 57434.34,
+    "payment_terms": "Net 45",
+    "language": "en",
+    "line_items": [
+      {
+        "description": "Brochure printing (A5, 1000 copies)",
+        "quantity": 4,
+        "unit_price": 3445.0,
+        "tax_rate": 0.14,
+        "line_total": 13780.0
+      },
+      {
+        "description": "Ballpoint pens (box of 50)",
+        "quantity": 19,
+        "unit_price": 118.0,
+        "tax_rate": 0.14,
+        "line_total": 2242.0
+      },
+      {
+        "description": "Conference room rental (per day)",
+        "quantity": 3,
+        "unit_price": 6615.0,
+        "tax_rate": 0.14,
+        "line_total": 19845.0
+      },
+      {
+        "description": "Business lunch catering (per person)",
+        "quantity": 28,
+        "unit_price": 178.0,
+        "tax_rate": 0.14,
+        "line_total": 4984.0
+      },
+      {
+        "description": "Office cleaning service (monthly)",
+        "quantity": 2,
+        "unit_price": 3565.0,
+        "tax_rate": 0.14,
+        "line_total": 7130.0
+      },
+      {
+        "description": "Digital thermometer",
+        "quantity": 12,
+        "unit_price": 200.0,
+        "tax_rate": 0.14,
+        "line_total": 2400.0
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/inv_047.pdf",
+    "format": "pdf",
+    "language": "en",
+    "quality": "digital",
+    "layout": "modern",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": null,
+    "edge_note": null,
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}

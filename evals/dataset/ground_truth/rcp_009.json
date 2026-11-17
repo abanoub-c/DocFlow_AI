@@ -1,0 +1,48 @@
+{
+  "doc_id": "rcp_009",
+  "doc_type": "receipt",
+  "schema_version": "receipt_v1",
+  "fields": {
+    "merchant_name": "CityCare Pharmacy",
+    "merchant_address": "22 Sheikh Zayed Road, Dubai, UAE",
+    "receipt_number": "0006790",
+    "date": "2026-02-07",
+    "time": "19:41",
+    "payment_method": "cash",
+    "currency": "EGP",
+    "subtotal": 88.5,
+    "tax": 12.39,
+    "total": 101.0,
+    "language": "en",
+    "items": [
+      {
+        "name": "Hand cream",
+        "quantity": 1,
+        "unit_price": 51.0,
+        "line_total": 51.0
+      },
+      {
+        "name": "Cotton pads (100)",
+        "quantity": 1,
+        "unit_price": 37.5,
+        "line_total": 37.5
+      }
+    ]
+  },
+  "meta": {
+    "file": "documents/rcp_009.jpg",
+    "format": "jpg",
+    "language": "en",
+    "quality": "degraded",
+    "layout": "store",
+    "digit_style": "ascii",
+    "currency": "EGP",
+    "edge_case": "cash_rounding",
+    "edge_note": "Printed total includes a cash-rounding line; validators must tolerate a difference of up to 0.50.",
+    "duplicate_of": null,
+    "expected_issues": [],
+    "expected_review": false,
+    "synthetic": true,
+    "generator_version": "1.0"
+  }
+}
